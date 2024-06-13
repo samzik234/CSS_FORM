@@ -1,0 +1,64 @@
+body {
+    font-size: 15px;
+    background-image: url(./image2.jpg);
+    background-size:cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-color: rgb(102, 102, 200);
+   
+  }
+  
+  .capacity-bay-survey {
+    max-width: 600px;
+    margin: 40px auto; 
+    padding: 20px;
+    background-color: #262A47; /* added transparency */
+    border: 1px solid #ccc;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2{
+    
+    text-align: center;
+  }
+   p{
+    text-align: center;
+    font-style:italic ;
+   }
+   label { 
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"], textarea {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  textarea {
+    height: 50px;
+  }
+  
+  input[type="submit"] {
+    display: flex;
+    justify-content: center;
+    width:59%;
+    margin:auto;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
